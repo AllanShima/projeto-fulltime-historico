@@ -27,7 +27,7 @@ function App() {
     onAuthStateChanged(auth, async (user) => {
       // se estiver logado
       if (user){
-        // OBS: NÃO PODE PASSAR USERSTATE PORQUE ELE AINDA NÃO FOI CONFIGURADO PRR
+        // OBS: NÃO PODE PASSAR USERSTATE PORQUE ELE AINDA NÃO FOI CONFIGURADO
         const userData = await firestoreGetUserById(user.uid);
         const currentAlert = await firestoreGetAlertOnByUid(user.uid);
         //const userLocation = await firestoreGetLocationByUid(userState);

@@ -22,34 +22,84 @@ const HomeCam = ({cameras, selectedCam, remainingCams}) => {
     return <div>No cameras detected.</div>
   }
 
-  console.log(remainingCams);
-
   return (
     <div className='grid h-full w-full text-white'>
-      <div className='grid ml-auto mr-auto p-5 bg-amber-900'>
+      <div className='grid grid-flow-col w-full h-full ml-auto mr-auto bg-amber-900'>
         {cameras.length == 1 ? (
           <div className='flex w-full h-full'>
             <CameraScreen camera={currentCamera}/>
           </div>
         ) : cameras.length == 2 ? (
-          <div className='grid grid-flow-col'>
-            <span className=' pr-5'>
+          <div className='flex w-full box-border p-5 overflow-hidden'>
+            {/* Add min-w-0 to both children to fix the issue of the pr not showing up */}
+            <div className='relative flex-1 pr-5 min-w-0'>
               <CameraScreen camera={currentCamera}/>
-            </span>
-            <span className=''>
-              <CameraScreen camera={currentCamera}/>
-            </span>
-            
+            </div>
+            <div className='relative flex-1 min-w-0'>
+              <CameraScreen camera={remainingCams[0]}/>
+            </div>
           </div>
+        // Substitua o trecho de 3 câmeras por este:
         ) : cameras.length == 3 ? (
-          <div className='grid grid-flow-col h-1/2 space-x-6'>
-            <CameraScreen camera={currentCamera}/>
-            <CameraScreen camera={remainingCams[0]}/>
+          <div className="grid grid-cols-2 grid-rows-2 gap-4 w-full h-160 p-4 box-border overflow-hidden">
+            
+            <div className="relative w-full h-full min-h-0 min-w-0">
+              <CameraScreen camera={currentCamera}/>
+            </div>
+
+            <div className="relative w-full h-full min-h-0 min-w-0">
+              <CameraScreen camera={remainingCams[0]}/>
+            </div>
+
+            {/* Câmera 3 - Ocupa a metade de baixo inteira */}
+            <div className="relative col-span-2 w-full h-full min-h-0 min-w-0">
+              <CameraScreen camera={remainingCams[1]}/>
+            </div>
+
+          </div>
+        ) : cameras.length == 4 ? (
+          <div className="grid grid-cols-2 grid-rows-2 gap-4 w-full h-160 p-4 box-border overflow-hidden">
+            
+            <div className="relative w-full h-full min-h-0 min-w-0">
+              <CameraScreen camera={currentCamera}/>
+            </div>
+            
+            <div className="relative w-full h-full min-h-0 min-w-0">
+              <CameraScreen camera={remainingCams[0]}/>
+            </div>
+
+            <div className="relative w-full h-full min-h-0 min-w-0">
+              <CameraScreen camera={remainingCams[1]}/>
+            </div>
+            
+            <div className="relative w-full h-full min-h-0 min-w-0">
+              <CameraScreen camera={remainingCams[2]}/>
+            </div>
           </div>
         ) : (
-          <div className='grid grid-flow-col h-1/2 space-x-6'>
-            <CameraScreen camera={currentCamera}/>
-            <CameraScreen camera={remainingCams[0]}/>
+          <div className="grid grid-cols-2 grid-rows-2 gap-4 w-full h-160 p-4 box-border overflow-hidden">
+
+            <div className="relative w-full h-full min-h-0 min-w-0">
+              <CameraScreen camera={currentCamera}/>
+            </div>
+            
+            <div className="relative w-full h-full min-h-0 min-w-0">
+              <CameraScreen camera={remainingCams[0]}/>
+            </div>
+            
+            <div className="relative flex col-span-2 w-full h-full min-h-0 min-w-0">
+              <div className='grid grid-cols-3 gap-5 w-full h-full'>
+                <span className='w-full h-73'>
+                  <CameraScreen camera={remainingCams[1]}/>
+                </span>
+                <span className='w-full h-73'>
+                  <CameraScreen camera={remainingCams[2]}/>
+                </span>
+                <span className='w-full h-73'>
+                  <CameraScreen camera={remainingCams[3]}/>
+                </span>
+              </div>
+            </div>
           </div>
         )} 
       </div>

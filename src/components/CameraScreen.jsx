@@ -26,22 +26,12 @@ const CameraScreen = ({ camera }) => {
     const formattedDate = currentTime.toLocaleDateString('pt-BR');
 
     return (
-        <div className="relative w-full rounded-xl overflow-hidden"
-             style={{
-                // backgroundImage: `url(${camera.imageUrl})`,
-                // backgroundSize: 'cover',
-                // backgroundPosition: 'center',
-                // backgroundRepeat: 'no-repeat',
-                overflow: 'hidden',
-                zIndex: 0
-             }}>
-            {/* {console.log(camera)} */}
+        <div className="relative w-full h-full rounded-xl overflow-hidden">
             <LocalCamera viewArea={camera.position} />
-
             <div className="flex absolute inset-0 p-3 justify-between w-full h-full z-10">
                 <div className="h-full">
                     <div className="h-full">
-                        <div className="grid content-between w-fit h-full">
+                        <div className="grid content-between w-fit max-w-50 h-full">
                             <div className="grid space-y-1">
                                 <CameraDataElements text={camera.name} />
                                 <CameraDataElements text={camera.location} />
