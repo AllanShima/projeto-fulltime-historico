@@ -1,4 +1,6 @@
-### Projeto de Implementação de Recursos de Comunicação entre os Softwares FullCenter e F/Safe
+# Projeto de Recursos de Comunicação entre Softwares da Fulltime
+> Implementação de Recursos de Comunicação entre os Softwares FullCenter e F/Safe da Fulltime.
+
 #### Empresa: FullTime
 
 #### Unimar BCC - TM4, A 2025
@@ -13,17 +15,32 @@
 
 Apresentação realizada dia 26/11/25 - antes da versão final.
 
-### Extensões do VSCode p projeto:
-- ES7 React/Redux/GraphQL/React-Native snippets;
-- Tailwind CSS Intellisense;
+## Preview
+> Software FullCenter Desktop
+
+- FullCenter, Aba de Câmeras
+<img width="1919" height="870" alt="image" src="https://github.com/user-attachments/assets/906d5971-f941-450d-bd71-d49dc07bdb97" />
+
+- FullCenter, Aba de Histórico de Eventos
+<img width="1919" height="870" alt="image" src="https://github.com/user-attachments/assets/6c5feb9d-f950-4288-b0c9-4658bf8df59d" />
+
+- FullCenter, Aba de Live Chat + Maps
+<img width="1919" height="869" alt="image" src="https://github.com/user-attachments/assets/0727aabb-55a4-49df-acc0-39da0ec690b7" />
+
+---
+> Software F/Safe Desktop
+
+- F/Safe, Aba de Notificações
+<img width="1919" height="866" alt="image" src="https://github.com/user-attachments/assets/e7c4fca6-5761-4bef-acb5-fcddd9825c56" />
+
+- F/Safe, Aba de Live Chat
+<img width="1919" height="871" alt="image" src="https://github.com/user-attachments/assets/054b0609-7e80-4fc2-b7a0-5c730ce78ab9" />
 
 #### Modelo e Design do site no Figma: https://www.figma.com/make/7dUkP1EXmsNFcUiUyluHUv/Camera-Event-List-Website?node-id=0-1&p=f&t=OkLz57h0AY02nwVi-0
 
 OBS: Modelo inflenciado pelo software "Moni Softwares". Design elaborado pelo figma AI.
 
----
-
-### Inicialização do projeto:
+### Instalação do Projeto:
 Instale as dependencias: 'npm install';
 
 Ligar ambiente de desenvolvimento: 'npm run dev';
@@ -32,9 +49,20 @@ Ligar ambiente de desenvolvimento: 'npm run dev';
 construção do projeto (build): 'npm run build';
 implatação do proejeto (deploy): 'firebase deploy'; 
 
-Site implantado: https://fulltime-historico.web.app
+## Bibliotecas e Extensões
 
----
+- Rombo Motion (Abandonado - Não funciona)
+- Firebase
+    - Hooks;
+    - Authentication;
+    - Firestore;
+- React Icons
+- React Router
+- npm install jspdf html2canvas (pdf)
+- ES7 React/Redux/GraphQL/React-Native snippets;
+- Tailwind CSS Intellisense;
+
+## Anotações
 
 #### Progresso:
 - Instalando Vite com react: https://tailwindcss.com/docs/installation/using-vite
@@ -62,20 +90,3 @@ Site implantado: https://fulltime-historico.web.app
 - (Não foi necessário usar o emulator);
 - Instalando o Google Maps para react 'npm install @vis.gl/react-google-maps' via git bash
     - React Google Maps, é uma biblioteca que contém hooks e components do gmaps p react que facilita
-
-
----
-### Notes:
-- Organizar depois: https://www.youtube.com/watch?v=W30jg08UQow
-
----
-### Bibliotecas
-
-- Rombo Motion (Abandonado - Não funciona)
-- Firebase
-    - Hooks;
-    - Authentication;
-    - Firestore;
-- React Icons
-- React Router
-- npm install jspdf html2canvas (pdf)
