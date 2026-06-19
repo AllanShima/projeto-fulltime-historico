@@ -15,10 +15,10 @@ const LandingPage = () => {
   const selectedStyle = "font-bold";
   return (
     // O header, body e Footer são componentes únicos da Landingpage
-    <div className='flex flex-col min-h-screen justify-start mx-auto'>
+    <div className='flex w-full flex-col min-h-screen justify-start'>
       <div className='flex z-30 w-full justify-center py-4 shadow-md box-border'>
-        <div className='w-5/6 h-full '> 
-          <nav className='w-full h-full'>
+        <div className='flex w-3/4 h-full'> 
+          <nav className='flex w-full h-full'>
             <ul className='flex w-full h-full items-center justify-between'>
               <a href="https://fulltime.com.br/">
                 <img className='w-30 h-fit' src="https://fulltime.com.br/wp-content/themes/fulltime-brasil-1/images/logo.png" alt="Fulltime-logo" />
@@ -69,7 +69,7 @@ const LandingPage = () => {
           </nav>
         </div>
       </div>
-      <div className="bg-gradient-to-br max-h-screen from-white via-slate-100 to-red-200 z-0">
+      <div className="w-full max-h-screen z-0">
         {/* Hero Section */}
         <section className="relative overflow-hidden z-10">
           <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 via-transparent to-purple-600/10"></div>
@@ -102,7 +102,7 @@ const LandingPage = () => {
         </section>
 
         {/* Stats Section */}
-        <div className="container mx-auto px-40 py-12 bg-gray-100 z-30">
+        <div className="w-full mx-auto px-40 py-12 bg-gray-100 z-30">
           <div className="grid grid-cols-4 gap-6">
             <div className="p-6 text-center border-2 rounded-2xl text-gray-200 hover:border-blue-600 transition-colors">
               <BiCamera className="w-8 h-8 mx-auto mb-3 text-blue-600" />
@@ -128,7 +128,7 @@ const LandingPage = () => {
         </div>
 
         {/* Features Section */}
-        <section className="container mx-auto px-6 py-16 bg-gray-100">
+        <section className="w-full mx-auto px-6 py-16 bg-gray-100">
           <div className="text-center mb-12">
             <h2 className="mb-4 text-slate-900">Principal Problema</h2>
             <div className="w-250 text-slate-600 max-w-2xl mx-auto">

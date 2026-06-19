@@ -52,12 +52,12 @@ const UserNotificationComponent = ({setNotificationButtonModal, setPdfButtonModa
 
 
     return (
-        <div className='flex flex-col pl-4 pt-4 max-h-135 w-full'>
+        <div className='flex flex-col w-full h-full pb-20 pl-4 pt-4'>
             <span className='justify-center text-primary'>
                 <h1>Noticicações ({userEvents?.length || 0})</h1>
             </span>   
-            <div className='flex-1 w-full mt-4 justify-between overflow-y-auto'>
-                <div className='w-full pr-4 space-y-3'>
+            <div className='flex-1 w-full h-full mt-4 justify-between overflow-y-auto'>
+                <div className='w-full h-full pr-4 space-y-3'>
                     {userEvents?.map((event) => (
                     <EventCardUser 
                         key={event.id} 

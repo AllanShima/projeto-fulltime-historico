@@ -23,8 +23,8 @@ const HomeCam = ({cameras, selectedCam, remainingCams}) => {
   }
 
   return (
-    <div className='grid h-full w-full text-white'>
-      <div className='grid grid-flow-col w-full h-full ml-auto mr-auto bg-amber-900'>
+    <div className='w-full h-full text-white'>
+      <div className='grid grid-flow-col w-full h-full ml-auto mr-auto'>
         {cameras.length == 1 ? (
           <div className='flex w-full h-full'>
             <CameraScreen camera={currentCamera}/>
@@ -52,7 +52,7 @@ const HomeCam = ({cameras, selectedCam, remainingCams}) => {
             </div>
 
             {/* Câmera 3 - Ocupa a metade de baixo inteira */}
-            <div className="relative col-span-2 w-full h-full min-h-0 min-w-0">
+            <div className="relative col-div-2 w-full h-full min-h-0 min-w-0">
               <CameraScreen camera={remainingCams[1]}/>
             </div>
 
@@ -77,7 +77,7 @@ const HomeCam = ({cameras, selectedCam, remainingCams}) => {
             </div>
           </div>
         ) : (
-          <div className="grid grid-cols-2 grid-rows-2 gap-4 w-full h-160 p-4 box-border overflow-hidden">
+          <div className="grid grid-cols-2 grid-rows-2 gap-4 w-full h-full p-4 box-border overflow-hidden">
 
             <div className="relative w-full h-full min-h-0 min-w-0">
               <CameraScreen camera={currentCamera}/>
@@ -89,15 +89,15 @@ const HomeCam = ({cameras, selectedCam, remainingCams}) => {
             
             <div className="relative flex col-span-2 w-full h-full min-h-0 min-w-0">
               <div className='grid grid-cols-3 gap-5 w-full h-full'>
-                <span className='w-full h-73'>
+                <div className='w-full h-full min-h-0 min-w-0'>
                   <CameraScreen camera={remainingCams[1]}/>
-                </span>
-                <span className='w-full h-73'>
+                </div>
+                <div className='w-full h-full min-h-0 min-w-0'>
                   <CameraScreen camera={remainingCams[2]}/>
-                </span>
-                <span className='w-full h-73'>
+                </div>
+                <div className='w-full h-full min-h-0 min-w-0'>
                   <CameraScreen camera={remainingCams[3]}/>
-                </span>
+                </div>
               </div>
             </div>
           </div>

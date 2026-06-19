@@ -59,8 +59,8 @@ const Login = () => {
     // setFocusClass("outline-2 outline-gray-black text-gray-700")
 
     return (
-        <div className='flex w-full h-full items-center justify-center bg-gray-50 font-regular'>
-            <div className='grid w-fit h-full justify-center'>
+        <div className='flex flex-col w-full min-h-screen items-center justify-center font-regular bg-gray-50 p-6 box-border'>
+            <div className='grid w-fit justify-center gap-10'>
                 {/* Fulltime Logo */}
                 <a href="/" className='flex'>
                     <div className='flex mr-auto ml-auto justify-center content-center mt-auto mb-auto w-1/2 space-x-2'>

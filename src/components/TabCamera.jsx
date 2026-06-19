@@ -96,7 +96,7 @@ const TabCamera = () => {
       {newCameraModal && (
         <NewCameraModalComponent setStateModal={setNewCameraModal}/>
       )}
-      <div className='flex flex-1 bg-white'>
+      <div className='flex flex-1 w-full h-full max-h-screen overflow-hidden box-border'>
         <SidebarMonitor 
         cameras={cameras} 
         events={events} 

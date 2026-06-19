@@ -62,10 +62,12 @@ function App() {
     {
       path: '/monitor',
       element: (
-        <>
+        <div className="flex flex-col w-full h-screen max-h-screen overflow-hidden bg-white">
           <HeaderMonitor/>
-          <Outlet/>
-        </>
+          <main className="flex-1 min-h-0 w-full overflow-hidden">
+            <Outlet/>
+          </main>
+        </div>
       ),
       children: [
         {
@@ -85,10 +87,12 @@ function App() {
     {
       path: '/user',
       element: (
-        <>
+        <div className="flex flex-col w-full h-screen max-h-screen overflow-hidden bg-white">
           <HeaderUser/>
-          <Outlet/>
-        </>
+          <main className="flex-1 min-h-0 w-full overflow-hidden">
+            <Outlet/>            
+          </main>
+        </div>
       ),
       children: [
         {
@@ -112,28 +116,10 @@ function App() {
     },
   ])
 
-  // const guestRouter = createBrowserRouter([
-  //   // Caminho do visitante
-  //   {
-  //     //index: true, // Default child route
-  //     path: '/',
-  //     element: <LandingPage/>,
-  //     errorElement: <NotFoundPage/>,
-  //   },
-  //   {
-  //     path: '/login',
-  //     element: <Login/>
-  //   },
-  //   {
-  //     path: '/register',
-  //     element: <Register/>
-  //   },
-  // ])
-
   return (
     // O componente APIProvider é CRUCIAL
     <APIProvider apiKey={GOOGLE_MAPS_API_KEY} libraries={['marker', 'geometry']}>
-      <div className='w-screen h-screen flex flex-col bg-white'>
+      <div className='flex-1 min-h-0 w-full overflow-hidden'>
         <RouterProvider router={mainRouter}/>
       </div>      
     </APIProvider>

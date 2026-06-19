@@ -96,7 +96,7 @@ const TabHistory = () => {
     }, []);
 
     return (
-        <div className='flex flex-1 w-full bg-amber-600'>
+        <div className='flex flex-1 w-full h-full'>
             {showExportModal && (
                 <PdfViewer setShowModal={setShowExportModal} selectedEvent={selectedEvent}/>
             )}
@@ -201,7 +201,7 @@ const TabHistory = () => {
                             </span>
                         </span>
                     </div>
-                    <div className='space-y-3 mt-3 overflow-y-scroll max-h-115 p-5'>
+                    <div className='space-y-3 mt-3 overflow-y-scroll max-h-130 p-5'>
                         {events.map(e => (
                             <EventCardMonitor 
                             key={e.id} 

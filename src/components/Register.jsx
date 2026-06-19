@@ -131,8 +131,8 @@ const Register = () => {
     const registerButtonStyle = "w-1/2 h-10 ml-4 rounded-4xl font-bold cursor-pointer bg-linear-to-r from-red-500 to-red-700 hover:from-red-600 hover:to-red-800 transition duration-200 text-md text-white";
 
     return (
-        <div className='flex w-full h-full items-center justify-center bg-gray-50 font-regular'>
-            <div className='grid w-fit h-full justify-center'>
+        <div className='flex w-full min-h-screen items-center justify-center bg-gray-50 font-regular'>
+            <div className='grid w-fit h-full justify-center gap-10'>
                 {/* Fulltime Logo */}
                 <a href="/" className='flex'>
                     <div className='flex mr-auto ml-auto justify-center content-center mt-auto mb-auto w-1/2 space-x-2'>
