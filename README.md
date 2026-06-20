@@ -1,6 +1,6 @@
 # Projeto de Recursos de Comunicação entre Softwares da Fulltime
 > Implementação de Recursos adicionais de Comunicação entre os Softwares FullCenter e F/Safe da Fulltime.
-> Projeto inclui uma versão base dos softwares já existentes FullCenter e F/Safe, em conjunto dos novos recursos e funcionalidades.
+> Projeto é uma plataforma web desktop de uma versão base dos softwares já existentes FullCenter e F/Safe, em conjunto dos novos recursos e funcionalidades adicionados.
 
 #### Empresa: FullTime
 
@@ -76,10 +76,24 @@ OBS: Modelo inflenciado pelo software "Moni Softwares". Design elaborado pelo Fi
 > Primeira empresa do país a desenvolver a solução M2M/GPRS para monitoramento, a Fulltime é líder nacional e referência no setor. O DNA pioneiro da Fulltime pode ser identificado em cada detalhe das suas mais modernas soluções de automação IoT, rastreamento GPS, monitoramento e CFTV." (https://fulltime.com.br/sobre/)
 
 ## Problema
+A FullTime possui várias soluções de segurança, e para o projeto foram destacados duas:
+- FullCenter: O FullCenter é responsável por receber eventos de painéis de alarme, receptores de linha telefônica, câmeras, DVR/NVR, equipamentos de rastreamento e automação.
+- F/Safe: O F/Safe elenca uma série de soluções com botoeiras de emergência customizáveis que comunicam às centrais de monitoramento e usuários sobre os perigos locais.
+
+> A Fulltime, além de muitas outras empresas de monitoramento e rastreamento, possuem um software em comum que centraliza todos as outras soluções, funcionando como uma central. A FullCenter, tem como papel centralizar os serviçoes e softwares específicos de monitoramento da empresa, com ele é possível receber e fazer o tratamento adequado dos eventos de alertas, e o monitoramento das câmeras. No entanto, um dos softwares elaborados recentemente, o F/Safe, ainda possui uma falta de funcionalidades essenciais que efetivam a comunicação entre os dois softwares. Já que em seu estado atual, atua somente como um emissor de alerta para o monitor, impossibilitando qualquer outro meio de comunicação entre o monitor e o usuário sujeito.
 
 ## Solução
+> A solução encontrada pelo grupo, foi elaborar várias funcionalidades e recursos diferentes que se complementam no mesmo ambiente da plataforma.
 
 ## Projeto
+> Para a elaboração do projeto, foi necessário "copiar" e elaborar uma versão parecida dos softwares FullCenter e F/Safe.
+> Que foram desenvolvidas em cima de uma plataforma online web, utilizando tecnologias como o React e o Firebase que facilitam a estrutura.
+- Para fazer o teste entre os dois softwares, na tela de cadastro foi posicionado uma opção de escolher entre qual tipo de usuário ele quer para acessar a plataforma (para fins de teste)
+    - F/Center (Tela FullCenter);
+    - F/Safe (Tela F/Safe);
+
+Foram desenvolvidos as seguintes funcionalidades (print do landing page):
+
 
 ### Instalação do Projeto:
 - Instale as dependencias: 'npm install';
