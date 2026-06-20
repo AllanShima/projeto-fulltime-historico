@@ -21,7 +21,11 @@
 - [Tecnologias Principais](#tecnologias-principais)
 - [Bibliotecas e Extensões](#bibliotecas-e-extensões)
 - [Preview](#preview)
-- [Tecnologias Principais](#tecnologias-principais)
+- [Empresa](#empresa)
+- [Problema](#problema)
+- [Solução](#solução)
+- [Projeto](#projeto)
+- [Navegação na Plataforma](#navegação-na-plataforma)
 
 ## Tecnologias Principais
 - React;
