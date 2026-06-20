@@ -1,17 +1,18 @@
 # Projeto de Recursos de Comunicação entre Softwares da Fulltime
-> Implementação de Recursos de Comunicação entre os Softwares FullCenter e F/Safe da Fulltime.
+> Implementação de Recursos adicionais de Comunicação entre os Softwares FullCenter e F/Safe da Fulltime.
+> Projeto inclui uma versão base dos softwares já existentes FullCenter e F/Safe, em conjunto dos novos recursos e funcionalidades.
 
 #### Empresa: FullTime
 
 #### Unimar BCC - TM4, A 2025
 
-#### Integrantes:
-- Allan Shinhama (Líder): Encarregado pela ideia, desenvolvimento front + montagem dos componentes.
-- Emanuelly: Encarregada pela ingessão da webcam na plataforma.
-- Gabriel Claus: Elaboração dos Protocolos de Segurança e Exportação em Pdf;
+#### Integrantes e Responsabilidades:
+- Allan Shinhama (Líder): Ideia, Front + Montagem do Projeto.
+- Emanuelly: Simulação das câmeras na plataforma.
+- Gabriel Claus: Documento dos Protocolos de Segurança F/Safe;
 - Carlos Eduardo: Auxiliar com os testes e ideias;
-- Maria Eduarda: Encarregada do código boilerplate de CRUD do Backend no Firebase;
-- Enzo Brumatee: Encarregado do código boilerplate de CRUD do Backend no Firebase;
+- Maria Eduarda: Código boilerplate das funções Firestore;
+- Enzo Brumatee: Código boilerplate das funções Firestore;
 
 Apresentação realizada dia 26/11/25 - antes da versão final.
 
