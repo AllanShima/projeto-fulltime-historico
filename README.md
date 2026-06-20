@@ -36,9 +36,12 @@ Apresentação realizada dia 26/11/25 - antes da versão final.
 - F/Safe, Aba de Live Chat
 <img width="1919" height="871" alt="image" src="https://github.com/user-attachments/assets/054b0609-7e80-4fc2-b7a0-5c730ce78ab9" />
 
-#### Modelo e Design do site no Figma: https://www.figma.com/make/7dUkP1EXmsNFcUiUyluHUv/Camera-Event-List-Website?node-id=0-1&p=f&t=OkLz57h0AY02nwVi-0
+#### Modelo e Design do site no Figma: 
 
-OBS: Modelo inflenciado pelo software "Moni Softwares". Design elaborado pelo figma AI.
+<img width="1493" height="810" alt="image" src="https://github.com/user-attachments/assets/5d83b0c4-ecb1-4967-ac00-fc1cf922c9f3" />
+
+
+OBS: Modelo inflenciado pelo software "Moni Softwares". Design elaborado pelo Figma Make.
 
 ### Instalação do Projeto:
 Instale as dependencias: 'npm install';
@@ -90,3 +93,5 @@ implatação do proejeto (deploy): 'firebase deploy';
 - (Não foi necessário usar o emulator);
 - Instalando o Google Maps para react 'npm install @vis.gl/react-google-maps' via git bash
     - React Google Maps, é uma biblioteca que contém hooks e components do gmaps p react que facilita
+ 
+#### Design Figma Make: https://www.figma.com/make/7dUkP1EXmsNFcUiUyluHUv/Camera-Event-List-Website?node-id=0-1&p=f&t=OkLz57h0AY02nwVi-0
