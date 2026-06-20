@@ -2,9 +2,12 @@
 > Implementação de Recursos adicionais de Comunicação entre os Softwares FullCenter e F/Safe da Fulltime.
 > Projeto é uma plataforma web desktop de uma versão base dos softwares já existentes FullCenter e F/Safe, em conjunto dos novos recursos e funcionalidades adicionados.
 
-#### Empresa: FullTime
+---
 
-#### Unimar BCC - TM4, A 2025
+#### Curso: FÁBRICA DE PROJETOS ÁGEIS
+#### Classe: 4º Termo - A, Bacharel em Ciências da Computação, UNIMAR, 2025
+#### Empresa: FullTime Marília
+#### Prazo e Data: 08/08/2025 - 26/11/2025
 
 #### Integrantes e Responsabilidades:
 - Allan Shinhama (Líder): Ideia, Front + Montagem do Projeto.
@@ -13,8 +16,6 @@
 - Carlos Eduardo: Auxiliar com os testes e ideias;
 - Maria Eduarda: Código boilerplate das funções Firestore;
 - Enzo Brumatee: Código boilerplate das funções Firestore;
-
-Apresentação realizada dia 26/11/25 - antes da versão final.
 
 ## Tabela de Conteúdo
 - [Tecnologias Principais](#tecnologias-principais)
