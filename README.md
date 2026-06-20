@@ -6,7 +6,7 @@
 #### Unimar BCC - TM4, A 2025
 
 #### Integrantes:
-- Allan Shinhama (Líder): Encarregado pela ideia, desenvimento front + montageme encaixe dos outros componentes.
+- Allan Shinhama (Líder): Encarregado pela ideia, desenvolvimento front + montagem dos componentes.
 - Emanuelly: Encarregada pela ingessão da webcam na plataforma.
 - Gabriel Claus: Elaboração dos Protocolos de Segurança e Exportação em Pdf;
 - Carlos Eduardo: Auxiliar com os testes e ideias;
@@ -15,8 +15,11 @@
 
 Apresentação realizada dia 26/11/25 - antes da versão final.
 
+## Tabela de Conteúdo
+- 
+
 ## Preview
-> Software FullCenter Desktop
+> Visualização das telas dos softwares 
 
 - FullCenter, Aba de Câmeras
 <img width="1919" height="870" alt="image" src="https://github.com/user-attachments/assets/906d5971-f941-450d-bd71-d49dc07bdb97" />
@@ -43,17 +46,21 @@ Apresentação realizada dia 26/11/25 - antes da versão final.
 
 OBS: Modelo inflenciado pelo software "Moni Softwares". Design elaborado pelo Figma Make.
 
+## Empresa
+> "A Fulltime é uma multinacional fundada há 15 anos. Com presença em todo o território latino americano, conta com unidades na Argentina, México e Estados Unidos.
+> Primeira empresa do país a desenvolver a solução M2M/GPRS para monitoramento, a Fulltime é líder nacional e referência no setor. O DNA pioneiro da Fulltime pode ser identificado em cada detalhe das suas mais modernas soluções de automação IoT, rastreamento GPS, monitoramento e CFTV." (https://fulltime.com.br/sobre/)
+
+## Problema
+
+## Solução
+
+## Projeto
+
 ### Instalação do Projeto:
-Instale as dependencias: 'npm install';
-
-Ligar ambiente de desenvolvimento: 'npm run dev';
-
-### Build e Deploy
-construção do projeto (build): 'npm run build';
-implatação do proejeto (deploy): 'firebase deploy'; 
+- Instale as dependencias: 'npm install';
+- Ligar ambiente de desenvolvimento: 'npm run dev';
 
 ## Bibliotecas e Extensões
-
 - Rombo Motion (Abandonado - Não funciona)
 - Firebase
     - Hooks;
@@ -66,7 +73,6 @@ implatação do proejeto (deploy): 'firebase deploy';
 - Tailwind CSS Intellisense;
 
 ## Anotações
-
 #### Progresso:
 - Instalando Vite com react: https://tailwindcss.com/docs/installation/using-vite
 - Instalando Tailwind css
@@ -93,5 +99,9 @@ implatação do proejeto (deploy): 'firebase deploy';
 - (Não foi necessário usar o emulator);
 - Instalando o Google Maps para react 'npm install @vis.gl/react-google-maps' via git bash
     - React Google Maps, é uma biblioteca que contém hooks e components do gmaps p react que facilita
+
+### Build e Deploy
+construção do projeto (build): 'npm run build';
+implatação do proejeto (deploy): 'firebase deploy'; 
  
 #### Design Figma Make: https://www.figma.com/make/7dUkP1EXmsNFcUiUyluHUv/Camera-Event-List-Website?node-id=0-1&p=f&t=OkLz57h0AY02nwVi-0
