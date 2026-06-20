@@ -86,20 +86,30 @@ A FullTime possui várias soluções de segurança, e para o projeto foram desta
 > A solução encontrada pelo grupo, foi elaborar várias funcionalidades e recursos diferentes que se complementam no mesmo ambiente da plataforma.
 
 ## Projeto
-> Para a elaboração do projeto, foi necessário "copiar" e elaborar uma versão parecida dos softwares FullCenter e F/Safe.
-> Que foram desenvolvidas em cima de uma plataforma online web, utilizando tecnologias como o React e o Firebase que facilitam a estrutura.
+> Para a elaboração do projeto, foi necessário "copiar" e elaborar uma versão similar dos softwares FullCenter e F/Safe.
+> Com base nos designs, o projeto foi desenvolvido em cima de uma plataforma online web, utilizando tecnologias como o React e o Firebase que facilitam a estrutura.
 - Para fazer o teste entre os dois softwares, na tela de cadastro foi posicionado uma opção de escolher entre qual tipo de usuário ele quer para acessar a plataforma (para fins de teste)
     - F/Center (Tela FullCenter);
     - F/Safe (Tela F/Safe);
 
 Foram desenvolvidos as seguintes funcionalidades (print do landing page):
+<img width="1530" height="318" alt="image" src="https://github.com/user-attachments/assets/e43ce553-f3fb-4f6e-9248-31f94a807232" />
 
+## Navegação na Plataforma
+> FullCenter
+<img width="1525" height="511" alt="image" src="https://github.com/user-attachments/assets/9061370e-3c9e-4a13-8cfc-259e73e3f12d" />
+
+> F/Safe
+<img width="1493" height="464" alt="image" src="https://github.com/user-attachments/assets/05985195-bfc8-4d46-9ab8-db12351b33d0" />
+
+---
+
+## Anotações
 
 ### Instalação do Projeto:
 - Instale as dependencias: 'npm install';
 - Ligar ambiente de desenvolvimento: 'npm run dev';
 
-## Anotações
 #### Progresso:
 - Instalando Vite com react: https://tailwindcss.com/docs/installation/using-vite
 - Instalando Tailwind css
