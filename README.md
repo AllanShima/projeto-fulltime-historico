@@ -17,7 +17,29 @@
 Apresentação realizada dia 26/11/25 - antes da versão final.
 
 ## Tabela de Conteúdo
-- 
+- [Tecnologias Principais](#tecnologias-principais)
+- [Bibliotecas e Extensões](#bibliotecas-e-extensões)
+- [Preview](#preview)
+- [Tecnologias Principais](#tecnologias-principais)
+
+## Tecnologias Principais
+- React;
+- Figma;
+- Vite;
+- Tailwind;
+- Firebase (Auth, Firestore, Storage, ...).
+
+## Bibliotecas e Extensões
+- Rombo Motion (Abandonado - Não funciona)
+- Firebase
+    - Hooks;
+    - Authentication;
+    - Firestore;
+- React Icons
+- React Router
+- npm install jspdf html2canvas (pdf)
+- ES7 React/Redux/GraphQL/React-Native snippets;
+- Tailwind CSS Intellisense;
 
 ## Preview
 > Visualização das telas dos softwares 
@@ -44,8 +66,10 @@ Apresentação realizada dia 26/11/25 - antes da versão final.
 
 <img width="1493" height="810" alt="image" src="https://github.com/user-attachments/assets/5d83b0c4-ecb1-4967-ac00-fc1cf922c9f3" />
 
-
 OBS: Modelo inflenciado pelo software "Moni Softwares". Design elaborado pelo Figma Make.
+
+### Site-preview
+> Em particular
 
 ## Empresa
 > "A Fulltime é uma multinacional fundada há 15 anos. Com presença em todo o território latino americano, conta com unidades na Argentina, México e Estados Unidos.
@@ -60,18 +84,6 @@ OBS: Modelo inflenciado pelo software "Moni Softwares". Design elaborado pelo Fi
 ### Instalação do Projeto:
 - Instale as dependencias: 'npm install';
 - Ligar ambiente de desenvolvimento: 'npm run dev';
-
-## Bibliotecas e Extensões
-- Rombo Motion (Abandonado - Não funciona)
-- Firebase
-    - Hooks;
-    - Authentication;
-    - Firestore;
-- React Icons
-- React Router
-- npm install jspdf html2canvas (pdf)
-- ES7 React/Redux/GraphQL/React-Native snippets;
-- Tailwind CSS Intellisense;
 
 ## Anotações
 #### Progresso:
